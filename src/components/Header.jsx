@@ -1,5 +1,57 @@
-import '../assets/bootstrap/dist/css/bootstrap.min.css'
+import '../assets/styles/Header.css'
+import Amz from '../assets/images/amazon_logo.jpg'
+import Amc from '../assets/images/america_logo.jpg'
+import { MapPin, ShoppingCart } from 'lucide-react';
+
 export default function Header(){
-    return <header>
-    </header>
+    return (
+        <div className="flex flex-col">
+            <div className="flex text-white bg-black justify-between items-center">
+                <div className="flex justify-center items-center">
+                    <img src={Amz} alt="" className="logo m-3 ml-12 border-white p-1 hover:border" />
+                    <div className="flex justify-center items-center border-white hover:border ">
+                        <MapPin></MapPin>
+                        <div className="p-1 flex flex-col">
+                            <div className="">Deliver to</div>
+                            <b className="">Vietnam</b>
+                        </div>
+                    </div>
+                </div>
+                <div className="flex justify-center items-center">
+                    <div className="border-white hover:border flex justify-center items-center">
+                        <img src={Amc} alt="" className="flag pl-2" />
+                        <div className="p-3">EN</div>
+                    </div>
+                    <div className="flex flex-col border-white hover:border justify-center  m-2 text-sm">
+                        <div className="p-1">Hello, sign in</div>
+                        <b className="p-1">Account & Lists</b>
+                    </div>
+                    <div className="flex flex-col border-white hover:border justify-center m-2">
+                        <div className="p-1">Return</div>
+                        <b className="p-1 pr-2">& Orders</b>
+                    </div>
+                    <div className="flex border-white items-center hover:border justify-center m-2">
+                        <div className="p-2">
+                            <ShoppingCart size={40}/>
+                        </div>
+                        <b className="pr-2 pb-2 pt-2">Cart</b>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-slate-700 flex text-white underheader">
+                <div className="p-3 border-white hover:border">
+                    Home
+                </div>
+                <div className="p-3 border-white hover:border">
+                    Gift Card
+                </div>
+                <div className="p-3 border-white hover:border">
+                    Customer Service
+                </div>
+                <div className="p-3 border-white hover:border">
+                    Sell
+                </div>
+            </div>
+        </div>
+    )
 }
