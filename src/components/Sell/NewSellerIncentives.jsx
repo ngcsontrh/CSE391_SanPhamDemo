@@ -9,7 +9,7 @@ const NewSellerIncentives = () => {
         alt="New Seller Incentives"
         className="w-35vw mr-9"
       />
-      <div className="w-45vw">
+      <div className="w-40vw">
         <a
           href="https://sell.amazon.com/grow?initialSessionID=147-0622464-5821240&ld=AZUSSOA-sell#nsi"
           className="p-1 bg-lime-700 text-white font-semibold inline-flex items-center px-2 gap-2 rounded-full"

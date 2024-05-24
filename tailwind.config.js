@@ -13,7 +13,8 @@ export default {
       width: {
         "35vw": "35vw",
         "40vw": "40vw",
-        "45vw": "45vw"
+        "45vw": "45vw",
+        "80pt": "80%"
       },
       borderRadius: {
         "4500px": "4500px"

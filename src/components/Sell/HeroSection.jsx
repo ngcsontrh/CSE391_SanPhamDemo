@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section
+    <div
       className="bg-gradient-to-r from-blue-100 h-75vh to-white rounded-br-full rounded-es-5600px rounded-bl-4500px flex justify-around items-center"
     >
       <div className="w-35vw ml-4 text-neutral-800">
@@ -22,7 +22,7 @@ const HeroSection = () => {
         </p>
       </div>
       <img src="src\assets\sell_1.png" alt="sell" className="w-35vw" />
-    </section>
+    </div>
   );
 };
 export default HeroSection;

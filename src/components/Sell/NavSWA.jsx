@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
 
-const Navbar = () => {
+const NavSWA = () => {
   return (
     <nav className="pt-4 pb-2 bg-white flex justify-around items-center border-b-2 top-0 sticky">
       <h2 className="font-bold text-2xl">Sell with Amazon</h2>
@@ -28,4 +28,4 @@ const Navbar = () => {
     </nav>
   );
 };
-export default Navbar;
+export default NavSWA;
