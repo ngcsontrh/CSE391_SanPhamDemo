@@ -1,6 +1,10 @@
+import Sell from './pages/Sell'
+
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Sell />
+    </div>
   )
 }
 export default App
