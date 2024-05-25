@@ -1,11 +1,6 @@
 import "../constants/Footer";
 import { GetToKnowUs,AmazonPayment } from "../constants/Footer";
 
-// function takeLink(prop) {
-//   return <ul>
-//     <a href={Object.keys(prop).map((key)=>prop[key])}><li>{Object.keys(prop).map((key)=>key)}</li></a>
-//   </ul>;
-// }
 
 function takeLink(prop) {
   const keys = Object.keys(prop);
@@ -13,7 +8,7 @@ function takeLink(prop) {
     <ul>
       {keys.map((key) => (
         <li key={key} className="text-white">
-          <a className="hover:underline" href={prop[key]}>{key}</a>
+          <a className="hover:underline cursor-pointer" href={prop[key]}>{key}</a>
         </li>
       ))}
     </ul>
@@ -24,7 +19,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col">
       <a href="#">
-        <div className="flex items-center justify-center text-xl pt-2 pb-2 text-white bg-slate-600 hover:bg-slate-500">
+        <div className="flex items-center justify-center text-xl pt-2 pb-2 text-white bg-slate-600 hover:bg-slate-500 cursor-pointer">
           Back to top
         </div>
       </a>

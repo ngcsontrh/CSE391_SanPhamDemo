@@ -8,8 +8,8 @@ export default function Header(){
         <div className="flex flex-col">
             <div className="flex text-white bg-black justify-between items-center">
                 <div className="flex justify-center items-center">
-                    <img src={Amz} alt="" className="logo m-3 ml-12 border-white p-1 hover:border" />
-                    <div className="flex justify-center items-center border-white hover:border ">
+                    <img src={Amz} alt="" className="logo m-3 ml-12 border-white p-1 hover:border cursor-pointer" />
+                    <div className="flex justify-center items-center border-white hover:border cursor-pointer ">
                         <MapPin></MapPin>
                         <div className="p-1 flex flex-col">
                             <div className="">Deliver to</div>
@@ -18,19 +18,19 @@ export default function Header(){
                     </div>
                 </div>
                 <div className="flex justify-center items-center">
-                    <div className="border-white hover:border flex justify-center items-center">
+                    <div className="border-white hover:border flex justify-center items-center cursor-pointer">
                         <img src={Amc} alt="" className="flag pl-2" />
                         <div className="p-3">EN</div>
                     </div>
-                    <div className="flex flex-col border-white hover:border justify-center  m-2 text-sm">
+                    <div className="flex flex-col border-white hover:border justify-center  m-2 text-sm cursor-pointer">
                         <div className="p-1">Hello, sign in</div>
                         <b className="p-1">Account & Lists</b>
                     </div>
-                    <div className="flex flex-col border-white hover:border justify-center m-2">
+                    <div className="flex cursor-pointer flex-col border-white hover:border justify-center m-2">
                         <div className="p-1">Return</div>
                         <b className="p-1 pr-2">& Orders</b>
                     </div>
-                    <div className="flex border-white items-center hover:border justify-center m-2">
+                    <div className="flex cursor-pointer border-white items-center hover:border justify-center m-2">
                         <div className="p-2">
                             <ShoppingCart size={40}/>
                         </div>
@@ -39,16 +39,16 @@ export default function Header(){
                 </div>
             </div>
             <div className="bg-slate-700 flex text-white underheader">
-                <div className="p-3 border-white hover:border">
+                <div className="p-3 cursor-pointer border-white hover:border">
                     Home
                 </div>
-                <div className="p-3 border-white hover:border">
+                <div className="p-3 cursor-pointer border-white hover:border">
                     Gift Card
                 </div>
-                <div className="p-3 border-white hover:border">
+                <div className="p-3 cursor-pointer border-white hover:border">
                     Customer Service
                 </div>
-                <div className="p-3 border-white hover:border">
+                <div className="p-3 cursor-pointer border-white hover:border">
                     Sell
                 </div>
             </div>
