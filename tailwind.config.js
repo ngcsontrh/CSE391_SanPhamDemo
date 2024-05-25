@@ -21,6 +21,12 @@ export default {
       },
       backgroundColor: {
         "custom-1": "#f3ffd6"
+      },
+      backgroundImage: {
+        "scale-1": "url('src/assets/sell_3.jpg')"
+      },
+      brightness: {
+        "30": ".3"
       }
     },
   },
