@@ -1,8 +1,9 @@
-import "react-multi-carousel";
+// import "react-multi-carousel";
+import Carousel from "react-multi-carousel";
 import Pic1 from "../assets/images/carousel1.jpg";
 import Pic2 from "../assets/images/carousel2.jpg";
 
-export default function Carousel() {
+export default function CarouselGiftCard() {
   return (
     <div
       style={{
@@ -61,7 +62,7 @@ export default function Carousel() {
         swipeable
       >
         <img
-          src={Pic1}
+          src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           style={{
             display: "block",
             height: "100%",
@@ -70,7 +71,34 @@ export default function Carousel() {
           }}
         />
         <img
-          src={Pic2}
+          src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+          style={{
+            display: "block",
+            height: "100%",
+            margin: "auto",
+            width: "100%",
+          }}
+        />
+        <img
+          src="https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          style={{
+            display: "block",
+            height: "100%",
+            margin: "auto",
+            width: "100%",
+          }}
+        />
+        <img
+          src="https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          style={{
+            display: "block",
+            height: "100%",
+            margin: "auto",
+            width: "100%",
+          }}
+        />
+        <img
+          src="https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           style={{
             display: "block",
             height: "100%",
