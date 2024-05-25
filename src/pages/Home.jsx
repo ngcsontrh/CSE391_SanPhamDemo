@@ -1,11 +1,10 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import 'swiper/swiper-bundle.css';
-import SwiperCore, { Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-SwiperCore.use([Navigation, Pagination]);
+import CarouselMulti from 'react-multi-carousel';
+import { responsive, products, movies } from '../constants/Home';
+import 'react-multi-carousel/lib/styles.css';
+import '../pages/multicarousel.css'
 
 const Home = () => {
   return (
@@ -184,46 +183,64 @@ const Home = () => {
           <a href="#" className="mt-3 text-sm self-start">Shop Now</a>
         </div>
       </div>
-        {/* Swiper Carousel Section */}
+      <div className="container mx-auto mt-5">
+       {/* Multi Carousel Section */}
       <div className="mb-5">
-        <h2 className="text-2xl font-bold mb-4">Best Sellers in Sports & Outdoors</h2>
-        <Swiper
-          spaceBetween={10}
-          slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          breakpoints={{
-            640: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 4 },
-          }}
+        <h2 className="text-xl font-bold mb-2">Best Sellers in Sports & Outdoors</h2>
+        <CarouselMulti
+          swipeable={true}
+          draggable={true}
+          showDots={false}
+          responsive={responsive}
+          ssr={true}
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={5000}
+          keyBoardControl={true}
+          customTransition="all .5"
+          transitionDuration={500}
+          containerClass="carousel-container"
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          dotListClass="custom-dot-list-style"
+          itemClass="carousel-item-padding-20-px"
         >
-          <SwiperSlide>
-            <div className="p-2">
-              <img src="https://via.placeholder.com/300" alt="Best Seller 1" className="w-full h-48 object-cover" />
-              <p className="mt-2 text-left text-sm">Best Seller 1</p>
+          {products.map((product, index) => (
+            <div key={index} className="p-2 bg-white rounded-lg shadow-md">
+              <img src={product.src} alt={product.label} className="w-full h-auto object-cover rounded-md" />
+              <p className="text-center mt-1 text-sm">{product.label}</p>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="p-2">
-              <img src="https://via.placeholder.com/300" alt="Best Seller 2" className="w-full h-48 object-cover" />
-              <p className="mt-2 text-left text-sm">Best Seller 2</p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="p-2">
-              <img src="https://via.placeholder.com/300" alt="Best Seller 3" className="w-full h-48 object-cover" />
-              <p className="mt-2 text-left text-sm">Best Seller 3</p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="p-2">
-              <img src="https://via.placeholder.com/300" alt="Best Seller 4" className="w-full h-48 object-cover" />
-              <p className="mt-2 text-left text-sm">Best Seller 4</p>
-            </div>
-          </SwiperSlide>
-        </Swiper>
+          ))}
+        </CarouselMulti>
       </div>
+
+      <div className="mb-5">
+        <h2 className="text-xl font-bold mb-2">Most wished for in Movies & TV</h2>
+        <CarouselMulti
+          swipeable={true}
+          draggable={true}
+          showDots={false}
+          responsive={responsive}
+          ssr={true}
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={5000}
+          keyBoardControl={true}
+          customTransition="all .5"
+          transitionDuration={500}
+          containerClass="carousel-container"
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          dotListClass="custom-dot-list-style"
+          itemClass="carousel-item-padding-20-px"
+        >
+          {movies.map((movie, index) => (
+            <div key={index} className="p-2 bg-white rounded-lg shadow-md">
+              <img src={movie.src} alt={movie.label} className="w-full h-auto object-cover rounded-md" />
+              <p className="text-center mt-1 text-sm">{movie.label}</p>
+            </div>
+          ))}
+        </CarouselMulti>
+      </div>
+    </div>
     </div>
   );
 };
