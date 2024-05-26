@@ -10,9 +10,12 @@ import Trending from "../components/Trending";
 import LearnMore from "../components/LearnMore";
 import {Link} from "../constants/Redeem.js";
 import {GiftCardsLink} from "../constants/GiftCards.js"
+import Navbar from "../components/Navbar_GiftCards.jsx";
+import Description from "../components/Descirptions.jsx";
 export default function GiftCardsPage() {
   return (
     <div className="flex flex-col">
+      <Navbar/>
       <CarouselGiftCard />
       <div className="flex justify-between">
         <GiftCards href={GiftCardsLink["normal"]} src={GiftCard} />
@@ -25,6 +28,7 @@ export default function GiftCardsPage() {
         <More str={Link["Reload"]} src={Auto} />
       </div>
       <LearnMore/>
+      <Description/>
     </div>
   );
 }
