@@ -1,4 +1,4 @@
-import "D:/BTWEB1/CSE391_SanPhamDemo/src/Extensions.css"
+import "../../assets/styles/Extensions.css"
 
 function Extensions(){
     return(

@@ -1,6 +1,6 @@
 
 import { useState } from "react"
-import "D:/BTWEB1/CSE391_SanPhamDemo/src/HelpTopic.css"
+import "../../assets/styles/HelpTopic.css"
 
 const box0 =
             <div className = "grid-box2">

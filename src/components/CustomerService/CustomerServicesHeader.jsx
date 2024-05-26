@@ -1,4 +1,4 @@
-import "D:/BTWEB1/CSE391_SanPhamDemo/src/CustomerServicesHeader.css"
+import "../../assets/styles/CustomerServicesHeader.css"
 
 function CustomerServicesHeader(){
     return(
