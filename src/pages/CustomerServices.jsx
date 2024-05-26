@@ -4,12 +4,11 @@ import HelpTopic from "../components/CustomerService/HelpTopic.jsx";
 
 function CustomerServies(){
     return(
-       <div>
+       <div className="bg-cyan-800">
             <CustomerServicesHeader></CustomerServicesHeader>
             <Extensions></Extensions>
             <HelpTopic></HelpTopic>   
-       </div> 
-        
+       </div>  
     )
 }
 

@@ -2,7 +2,7 @@ import "../../assets/styles/Extensions.css"
 
 function Extensions(){
     return(
-        <div>
+        <div className="text-white">
             <div className = "extension-background">
                 <label className = "greeting">Welcome to Amazon Customer Service, Vương</label>
                 <label className = "question">What would you like help with today? 
