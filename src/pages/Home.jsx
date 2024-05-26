@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import CarouselMulti from 'react-multi-carousel';
 import { responsive, products, movies, carouselItems } from '../constants/Home';
 import 'react-multi-carousel/lib/styles.css';
-import '../pages/multicarousel.css'
+import '../assets/styles/multicarousel.css'
 
 const Home = () => {
   return (
