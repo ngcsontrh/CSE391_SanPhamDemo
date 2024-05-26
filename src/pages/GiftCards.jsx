@@ -6,20 +6,25 @@ import Balance from "../assets/images/balance.jpg";
 import Auto from "../assets/images/auto_reload.jpg";
 import More from "../components/More";
 import CarouselGiftCard from "../components/Carousel";
-
+import Trending from "../components/Trending";
+import LearnMore from "../components/LearnMore";
+import {Link} from "../constants/Redeem.js";
+import {GiftCardsLink} from "../constants/GiftCards.js"
 export default function GiftCardsPage() {
   return (
     <div className="flex flex-col">
       <CarouselGiftCard />
       <div className="flex justify-between">
-        <GiftCards src={GiftCard} />
-        <GiftCards src={SpecialGiftCard} />
+        <GiftCards href={GiftCardsLink["normal"]} src={GiftCard} />
+        <GiftCards href={GiftCardsLink["special"]} src={SpecialGiftCard} />
       </div>
+      <Trending/>
       <div className="flex">
-        <More src={Redeem} />
-        <More src={Balance} />
-        <More src={Auto} />
+        <More str={Link["Redeem"]} src={Redeem} />
+        <More str={Link["View"]} src={Balance} />
+        <More str={Link["Reload"]} src={Auto} />
       </div>
+      <LearnMore/>
     </div>
   );
 }
