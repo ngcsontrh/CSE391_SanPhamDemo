@@ -12,7 +12,7 @@ const Icon = ({ icon }) => {
 
 const Scale = () => {
   return (
-    <div className="w-80pt bg-blue-50 p-8 m-auto flex flex-col gap-7 rounded-xl">
+    <div className="w-80pt bg-blue-50 p-8 mx-auto my-8 flex flex-col gap-7 rounded-xl">
       <div className="flex justify-evenly items-center gap-9">
         <div className="w-2/3">
           <div className="ml-8 mr-5">
@@ -66,7 +66,7 @@ const Scale = () => {
             FBA.
           </p>
         </div>
-        <div className="flex gap-6 flex-wrap justify-between mt-8">
+        <div className="flex gap-6 flex-wrap justify-around mt-8">
           {scale.map((item, index) => (
             <div key={index} className="w-1/4 flex flex-col gap-4">
               {item.icon === "Plane" && <Plane fill="#40a8f7" size={45} strokeWidth={1}/>}

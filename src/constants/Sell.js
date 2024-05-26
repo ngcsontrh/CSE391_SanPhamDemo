@@ -56,3 +56,24 @@ export const scale = [
         more: "https://sell.amazon.com/grow?initialSessionID=147-0622464-5821240&ld=AZUSSOA-sell"
     },
 ]
+
+export const brandCaseStudy = [
+    {
+        image: "src/assets/brandcasestudy1.jpg",
+        title: "Freshly Picked",
+        content: "Freshly Picked sells high-end shoes and accessories for babies, children and their moms to help make life a little more fun, colorful and easier.",
+        link: "https://sell.amazon.com/brands/case-studies/freshly-picked?initialSessionID=147-0622464-5821240&ld=AZUSSOA-sell"
+    },
+    {
+        image: "src/assets/brandcasestudy2.jpg",
+        title: "Hope & Henry",
+        content: "Hope & Henry sells beautiful, high-quality, and affordable clothing using organic cotton and sharing profits with the women and men who sew them.",
+        link: "https://sell.amazon.com/brands/case-studies/hope-and-henry?initialSessionID=147-0622464-5821240&ld=AZUSSOA-sell"
+    },
+    {
+        image: "src/assets/brandcasestudy3.jpg",
+        title: "New Republic",
+        content: "New Republic sells refined styles of men's footwear and accessories that incorporate unexpected twists on memorable classics at affordable prices.",
+        link: "https://sell.amazon.com/brands/case-studies/new-republic?initialSessionID=147-0622464-5821240&ld=AZUSSOA-sell"
+    }
+]

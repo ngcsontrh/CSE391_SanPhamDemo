@@ -14,13 +14,16 @@ export default {
         "35vw": "35vw",
         "40vw": "40vw",
         "45vw": "45vw",
-        "80pt": "80%"
+        "80pt": "80%",
+        "30pt": "30%",
+        "31pt": "31%"
       },
       borderRadius: {
         "4500px": "4500px"
       },
       backgroundColor: {
-        "custom-1": "#f3ffd6"
+        "custom-1": "#f3ffd6",
+        "custom-2": "#bafcff"
       },
       backgroundImage: {
         "scale-1": "url('src/assets/sell_3.jpg')"
