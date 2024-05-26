@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel-item-padding-20-px {
+    padding: 0.5rem; /* 8px in Tailwind */
+  }
+  
+  .carousel-item-padding-20-px .p-2 {
+    background-color: white;
+    border-radius: 0.5rem; /* rounded-lg in Tailwind */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow-md in Tailwind */
+  }
+  
+  .carousel-item-padding-20-px img {
+    border-radius: 0.375rem; /* rounded-md in Tailwind */
+  }
