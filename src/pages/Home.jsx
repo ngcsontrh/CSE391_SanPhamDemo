@@ -11,7 +11,7 @@ const Home = () => {
     <div className="container mx-auto mt-5">
       {/* Carousel Section */}
       <div className="mb-5">
-        <Carousel showArrows={true} autoPlay={true} infiniteLoop={true}>
+        <Carousel className='mycarousel' showArrows={true} autoPlay={true} infiniteLoop={true}>
         <div>
             <a href="https://www.amazon.com/b/?_encoding=UTF8&ie=UTF8&node=23466307011&pd_rd_w=kGTv6&content-id=amzn1.sym.f8d62906-a452-4f4d-b404-3d26f153fbdc&pf_rd_p=f8d62906-a452-4f4d-b404-3d26f153fbdc&pf_rd_r=D716G0HGR5GYVAK182X3&pd_rd_wg=ikNb8&pd_rd_r=d953c818-ca63-454a-81bf-1f3f244a1b96&ref_=pd_hp_d_hero_unk">
               <img src="https://m.media-amazon.com/images/I/71YTsbTxBsL._SX3000_.jpg" alt="Amazing gifts for every Dad" className="w-full" />
