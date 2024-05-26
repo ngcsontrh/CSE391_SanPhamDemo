@@ -2,9 +2,11 @@ import '../assets/styles/Header.css'
 import Amz from '../assets/images/amazon_logo.jpg'
 import Amc from '../assets/images/america_logo.jpg'
 import { MapPin, ShoppingCart } from 'lucide-react';
+import { Link, Outlet } from 'react-router-dom';
 
 export default function Header(){
     return (
+        <>
         <div className="flex flex-col">
             <div className="flex text-white bg-black justify-between items-center">
                 <div className="flex justify-center items-center">
@@ -39,19 +41,21 @@ export default function Header(){
                 </div>
             </div>
             <div className="bg-slate-700 flex text-white underheader">
-                <div className="p-3 cursor-pointer border-white hover:border">
+                <Link to='/' className="p-3 cursor-pointer border-white hover:border">
                     Home
-                </div>
-                <div className="p-3 cursor-pointer border-white hover:border">
+                </Link>
+                <Link to='/giftcards' className="p-3 cursor-pointer border-white hover:border">
                     Gift Card
-                </div>
-                <div className="p-3 cursor-pointer border-white hover:border">
+                </Link>
+                <Link to='/customer' className="p-3 cursor-pointer border-white hover:border">
                     Customer Service
-                </div>
-                <div className="p-3 cursor-pointer border-white hover:border">
+                </Link>
+                <Link to='/sell' className="p-3 cursor-pointer border-white hover:border">
                     Sell
-                </div>
+                </Link>
             </div>
         </div>
+        <Outlet />
+        </>
     )
 }
