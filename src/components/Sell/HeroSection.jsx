@@ -21,7 +21,7 @@ const HeroSection = () => {
           $39.99 a month + selling fees
         </p>
       </div>
-      <img src="src\assets\sell_1.png" alt="sell" className="w-35vw" />
+      <img src="src\assets\images\sell_1.png" alt="sell" className="w-35vw" />
     </div>
   );
 };

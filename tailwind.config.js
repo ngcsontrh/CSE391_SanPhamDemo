@@ -28,7 +28,7 @@ export default {
         "custom-2": "#bafcff"
       },
       backgroundImage: {
-        "scale-1": "url('src/assets/sell_3.jpg')"
+        "scale-1": "url('src/assets/images/sell_3.jpg')"
       },
       brightness: {
         "30": ".3"
