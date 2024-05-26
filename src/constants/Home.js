@@ -40,3 +40,50 @@ export const responsive = {
     { src: 'https://m.media-amazon.com/images/I/81K9KkKNVOL._AC_SY200_.jpg', label: 'Movie 6', link: 'https://www.amazon.com/Ghostbusters-Frozen-Empire-Digital-Blu-Ray/dp/B0CWLRZ9VH/?_encoding=UTF8&pd_rd_w=CEz1K&content-id=amzn1.sym.41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_p=41f1b87d-2e7a-4fe4-bfcc-e038cab8f79e&pf_rd_r=QFNBJEVY0KY8TMEQJ14Q&pd_rd_wg=QP5CF&pd_rd_r=ebe691b7-6d26-4e94-8d73-d8f4b1158092&ref_=pd_hp_d_btf_crs_zg_bs_2625373011' },
   ];
   
+  export const carouselItems = [
+    {
+      imageUrl: "https://m.media-amazon.com/images/I/41BcZhxCQzL._AC_SY200_.jpg",
+      discount: "24% off",
+      dealType: "Limited time deal",
+      price: "$22.73",
+      oldPrice: "$29.99",
+      description: "Once Upon a Time: The Captivating Life",
+      link: "https://example.com/link1"
+    },
+    {
+      imageUrl: "https://m.media-amazon.com/images/I/41SOMp1SxzL._AC_SY200_.jpg",
+      discount: "33% off",
+      dealType: "Limited time deal",
+      price: "$8.69",
+      oldPrice: "$12.99",
+      description: "Summer Bridge Activities 2nd to 3rd G",
+      link: "https://example.com/link2"
+    },
+    {
+      imageUrl: "https://m.media-amazon.com/images/I/51An5CGF9TL._AC_SY200_.jpg",
+      discount: "33% off",
+      dealType: "Limited time deal",
+      price: "$8.69",
+      oldPrice: "$12.99",
+      description: "Summer Bridge Activities 3rd to 4th G",
+      link: "https://example.com/link3"
+    },
+    {
+      imageUrl: "https://m.media-amazon.com/images/I/81B3GdMvSXL._SX3000_.jpg",
+      discount: "19% off",
+      dealType: "Limited time deal",
+      price: "$16.79",
+      oldPrice: "$20.99",
+      description: "Amazon Basics 5-Blade Razor Refills",
+      link: "https://example.com/link4"
+    },
+    {
+      imageUrl: "https://m.media-amazon.com/images/I/71cHzVVr8PL._SX3000_.jpg",
+      discount: "20% off",
+      dealType: "Limited time deal",
+      price: "$24.03",
+      oldPrice: "$30.00",
+      description: "Swimming Against the Current: Fighting...",
+      link: "https://example.com/link5"
+    }
+  ];
