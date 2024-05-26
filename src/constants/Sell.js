@@ -76,4 +76,44 @@ export const brandCaseStudy = [
         content: "New Republic sells refined styles of men's footwear and accessories that incorporate unexpected twists on memorable classics at affordable prices.",
         link: "https://sell.amazon.com/brands/case-studies/new-republic?initialSessionID=147-0622464-5821240&ld=AZUSSOA-sell"
     }
+];
+
+export const introduction = [
+    {
+        title: "What is ecommerce?",
+        content: "Electronic commerce (ecommerce) is the trading of goods and services on the internet. Learn about the advantages and disadvantages of this selling channel."
+    },
+    {
+        title: "Build a business",
+        content: "For entrepreneurs and growing businesses, ecommerce can be a profitable model to adapt either as the sole focus of your business, or as an additional selling channel."
+    }, 
+    {
+        title: "Ecommerce fulfillment",
+        content: "Ecommerce fulfillment is a vital ingredient to growing a successful online retail channel. Here’s what to consider when looking for an order fulfillment service."
+    },
+    {
+        title: "Inventory management",
+        content: "Maintaining the right amount of inventory to meet demand can help keep your business humming. Get effective inventory management tips for ecommerce business owners."
+    },
+    {
+        title: "What is dropshipping?",
+        content: "This guide covers the definition of dropshipping, how it works, pros and cons, related Amazon policies, and alternatives to consider for ecommerce businesses."
+    },
+    {
+        title: "Create an Amazon storefront",
+        content: "Learn how to tell your brand story using Amazon tools. Build immersivei storefronts and customize product detail pages with rich media and content."
+    },
+    {
+        title: "Sell books on Amazon",
+        content: "Learn how to sell used books, new books, or your own self-published books. We've got the steps to help you get started—and seven tips to help you succeed."
+    },
+    {
+        title: "Seller University",
+        content: "Our online training program is designed to help brands, businesses, and entrepreneurs learn how to succeed as Amazon selling partners."
+    },
+    {
+        title: "Amazon Selling Partner Blog",
+        content: "Read updates, articles, and stories about getting started in ecommerce and growing your business in Amazon stores."
+    },
+
 ]

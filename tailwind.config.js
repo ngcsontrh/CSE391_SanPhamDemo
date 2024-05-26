@@ -19,7 +19,9 @@ export default {
         "31pt": "31%"
       },
       borderRadius: {
-        "4500px": "4500px"
+        "4500px": "4500px",
+        "2300px": "2300px",
+        "260px": "260px"
       },
       backgroundColor: {
         "custom-1": "#f3ffd6",
