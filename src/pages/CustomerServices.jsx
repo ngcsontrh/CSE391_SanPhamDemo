@@ -4,7 +4,7 @@ import HelpTopic from "../components/CustomerService/HelpTopic.jsx";
 
 function CustomerServies(){
     return(
-       <div className="bg-cyan-800">
+       <div className="color-body">
             <CustomerServicesHeader></CustomerServicesHeader>
             <Extensions></Extensions>
             <HelpTopic></HelpTopic>   

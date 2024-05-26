@@ -4,7 +4,7 @@ function Extensions(){
     return(
         <div className="text-white">
             <div className = "extension-background">
-                <label className = "greeting">Welcome to Amazon Customer Service, Vương</label>
+                <label className = "greeting">Welcome to Amazon Customer Service</label>
                 <label className = "question">What would you like help with today? 
                 You can quickly take care of most things here, or connect with us when needed.
                 </label>

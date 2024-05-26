@@ -10,16 +10,17 @@
 }
 
 .help-search-image{
-    padding:4.3px;
-    width:15px;
-    background-color: #181a1b;
-    border: 2px solid #847a6c;
+    padding:6px;
+    width:40px;
+    height:40px;
+    background-color: white;
+    color:white;
     border-right: none;
     margin-left:120px;
 }
 
 .help-search{
-    background-color: #181a1b;
+    background-color: white;
     padding:4px;
     border-left: none;
     width:1360px;
@@ -64,11 +65,12 @@
     background-color: #172424;
     border:none;
     border-radius: 4px;
+    color:white;
 }
 
 .button:hover{
     cursor: pointer;
-    background-color: rgba(100,100,100,0.4);
+    background-color: rgba(100,100,100,0.4)!important;
 }
 
 .buttons{
@@ -86,6 +88,7 @@
     font-size: 15px;
     display: block;
     margin-bottom:5px;
+    color: white;
 }
 
 .describe-text{
@@ -106,7 +109,7 @@
     padding-top:20px;
     padding-left:20px;
     background-color: #181a1b;
-    height:100px;
+    height:120px;
     border-radius:5px;
 }
 
@@ -131,6 +134,8 @@
     background-color: #181a1b;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
+    color: white;
+    border: 1px solid #847a6c;
 }
 
 .more-button:hover{
