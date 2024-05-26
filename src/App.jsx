@@ -1,6 +1,8 @@
+import CustomerServices from "./components/CustomerServices.jsx"
+
 const App = () => {
   return (
-    <div>App</div>
+    <CustomerServices></CustomerServices>
   )
 }
 export default App
