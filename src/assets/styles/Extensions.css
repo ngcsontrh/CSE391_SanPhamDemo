@@ -1,3 +1,8 @@
+.color-body{
+    background-color: #005a6a;
+}
+
+
 .greeting{
     font-family: Arial;
     font-size: 26px;
@@ -18,7 +23,7 @@
 }
 
 .extension-background{
-    /* background-color: #005a6a; */
+    background-color: #005a6a;
     height:110px;   
 }
 
@@ -26,6 +31,7 @@
     display: flex;
     background-color: #181a1b;
     align-items: center;
+    border-radius: 5px;
 }
 
 .grid-box-child:hover{
