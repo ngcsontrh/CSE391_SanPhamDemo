@@ -7,10 +7,10 @@ import { Link, Outlet } from 'react-router-dom';
 export default function Header(){
     return (
         <>
-        <div className="flex flex-col">
+        <div className="flex flex-col text-sm">
             <div className="flex text-white bg-black justify-between items-center">
                 <div className="flex justify-center items-center">
-                    <img src={Amz} alt="" className="logo m-3 ml-12 border-white p-1 hover:border cursor-pointer" />
+                    <img src={Amz} alt="" className="logo m-3  border-white p-1 hover:border cursor-pointer" />
                     <div className="flex justify-center items-center border-white hover:border cursor-pointer ">
                         <MapPin></MapPin>
                         <div className="p-1 flex flex-col">
@@ -29,7 +29,7 @@ export default function Header(){
                         <b className="p-1">Account & Lists</b>
                     </div>
                     <div className="flex cursor-pointer flex-col border-white hover:border justify-center m-2">
-                        <div className="p-1">Return</div>
+                        <div className="p-1 pb-0">Return</div>
                         <b className="p-1 pr-2">& Orders</b>
                     </div>
                     <div className="flex cursor-pointer border-white items-center hover:border justify-center m-2">
