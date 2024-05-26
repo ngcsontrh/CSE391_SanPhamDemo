@@ -12,31 +12,33 @@ export default function Trending() {
   };
 
   return (
-    <div style={{ padding: "20px" }}>
-      <div className="p-5 text-4xl font-semibold border-b m-6">
+    <div className="p-5 pr-0">
+      <div className="p-5 text-4xl font-semibold border-b mb-6">
         Trending now
       </div>
-      <Carousel
-        swipeable
-        draggable
-        showDots
-        responsive={responsive}
-        ssr // server-side rendering
-        infinite
-        keyBoardControl
-        customTransition="all .5"
-        transitionDuration={500}
-        containerClass="carousel-container"
-        removeArrowOnDeviceType={["tablet", "mobile"]}
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
-      >
-        {Object.entries(TrendImage).map(([img,link]) => (
+      <div className="pl-10 pr-0">
+        <Carousel
+          swipeable
+          draggable
+          showDots
+          responsive={responsive}
+          ssr // server-side rendering
+          infinite
+          keyBoardControl
+          customTransition="all .5"
+          transitionDuration={500}
+          containerClass="carousel-container"
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          dotListClass="custom-dot-list-style"
+          itemClass="carousel-item-padding-40-px"
+        >
+          {Object.entries(TrendImage).map(([img, link]) => (
             <a href={link} target="_blank">
-                <img src={img}  alt="" />
+              <img src={img} alt="" />
             </a>
-        ))}
-      </Carousel>
+          ))}
+        </Carousel>
+      </div>
     </div>
   );
 }
