@@ -19,7 +19,7 @@ export default function CarouselGiftCard() {
         arrows
         autoPlaySpeed={3000}
         centerMode={false}
-        className="carousel "
+        className="mycarousel"
         containerClass="container"
         dotListClass=""
         draggable
