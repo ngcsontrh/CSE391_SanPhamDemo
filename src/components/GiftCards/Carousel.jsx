@@ -10,7 +10,6 @@ export default function CarouselGiftCard() {
     <div
       className="pd cursor-pointer"
       style={{
-        paddingBottom: "30px",
         position: "relative",
       }}
     >
