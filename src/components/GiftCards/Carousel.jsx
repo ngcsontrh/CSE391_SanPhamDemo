@@ -1,4 +1,4 @@
-// import "react-multi-carousel";
+import "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import Pic1 from "../../assets/images/carousel1.jpg";
