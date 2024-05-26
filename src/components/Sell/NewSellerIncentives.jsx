@@ -5,7 +5,7 @@ const NewSellerIncentives = () => {
   return (
     <section className="flex flex-col md:flex-row justify-center items-center h-screen">
       <img
-        src="src\assets\sell_2.png"
+        src="src\assets\images\sell_2.png"
         alt="New Seller Incentives"
         className="w-35vw mr-9"
       />

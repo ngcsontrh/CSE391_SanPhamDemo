@@ -1,15 +1,6 @@
 import { Plane, Newspaper, CircleDollarSign, MoveUpRight } from "lucide-react";
 import { scale } from "../../constants/Sell";
 
-const Icon = ({ icon }) => {
-  const htmlIcon = `<${icon} />`;
-  return (
-    <div>
-      <div dangerouslySetInnerHTML={{ __html: htmlIcon }} />
-    </div>
-  );
-};
-
 const Scale = () => {
   return (
     <div className="w-80pt bg-blue-50 p-8 mx-auto my-8 flex flex-col gap-7 rounded-xl">
@@ -42,7 +33,7 @@ const Scale = () => {
             </p>
             <div className="flex items-center gap-2">
               <img
-                src="src\assets\avatar_ceo.jpg"
+                src="src\assets\images\avatar_ceo.jpg"
                 alt="CEO"
                 width={50}
                 className="rounded-full"
@@ -56,7 +47,7 @@ const Scale = () => {
             </div>
           </div>
         </div>
-        <img src="src\assets\amazon-b.jpg" alt="Amazon" />
+        <img src="src\assets\images\amazon-b.jpg" alt="Amazon" />
       </div>
       <div>
         <div className="h-36 relative flex items-center justify-center">
