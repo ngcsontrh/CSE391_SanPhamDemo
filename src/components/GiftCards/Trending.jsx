@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { TrendImage } from "../constants/Trending";
+import { TrendImage } from "../../constants/Trending";
 
 export default function Trending() {
   const responsive = {

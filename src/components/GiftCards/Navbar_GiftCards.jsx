@@ -1,4 +1,4 @@
-import { Nav } from "../constants/Navbar_gc";
+import { Nav } from "../../constants/Navbar_gc";
 export default function Navbar() {
   return (
     <div className="flex items-center border-b text-black">

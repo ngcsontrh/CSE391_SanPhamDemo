@@ -1,10 +1,10 @@
 // import "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
-import Pic1 from "../assets/images/carousel1.jpg";
-import Pic2 from "../assets/images/carousel2.jpg";
-import "../assets/styles/Carousel.css";
-import { CarouselLink } from "../constants/Carousel.js";
+import Pic1 from "../../assets/images/carousel1.jpg";
+import Pic2 from "../../assets/images/carousel2.jpg";
+import "../../assets/styles/Carousel.css";
+import { CarouselLink } from "../../constants/Carousel.js";
 export default function CarouselGiftCard() {
   return (
     <div

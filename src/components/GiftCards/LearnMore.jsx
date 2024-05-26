@@ -1,4 +1,4 @@
-import Learn from '../assets/images/learn.jpg'
+import Learn from '../../assets/images/learn.jpg'
 export default function LearnMore(){
     return(
         <div className="flex p-5 items-center justify-center mb-5">

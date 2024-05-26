@@ -1,4 +1,4 @@
-import "../assets/styles/GiftCard.css";
+import "../../assets/styles/GiftCard.css";
 export default function GiftCards({ src, href }) {
   return (
     <a href={href}>
